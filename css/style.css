@@ -22,6 +22,7 @@
 .foto img{
     width: 125px;
     border-radius: 50%;
+    border: 2px solid black;
 }
 
 .name{
@@ -87,4 +88,62 @@
     text-align: center;
     color: white;   
 }
+
+
+/* breakpoints */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px){
+
+    body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container{
+        width: 400px;
+        background-color:white;
+        border: 3px solid black;
+        margin: 200px auto;
+        position: relative;
+        box-sizing: border-box;
+        /* height: 800px; */
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .foto{
+        width: 100px;
+        position: absolute;
+        top: -70px;
+        left: 100px;
+    }
+
+    .foto img{
+        width: 125px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width : 768px){
+    .foto{
+        width: 100px;
+        position: absolute;
+        top: -70px;
+        left: 323px;
+}
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+    .foto{
+        width: 100px;
+        position: absolute;
+        top: -70px;
+        left: 500px;
+}
+}
+
 
