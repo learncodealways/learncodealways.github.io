@@ -1,0 +1,90 @@
+
+
+
+.container{
+    width: 800px;
+    background-color:white;
+    border: 3px solid black;
+    margin: 200px auto;
+    position: relative;
+    box-sizing: border-box;
+    /* height: 800px; */
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.foto{
+    width: 100px;
+    position: absolute;
+    top: -70px;
+    left: 500px;
+}
+.foto img{
+    width: 125px;
+    border-radius: 50%;
+}
+
+.name{
+    margin-top: 50px;
+    /* height: 50px; */
+    padding: 10px;
+    /* position: absolute;
+    right: 0;
+    left: 0; */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* background-image: url("assets/cv.png"); */
+    box-sizing: border-box;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+
+
+
+.nama{
+    text-align: center;
+    color: white;
+}
+
+
+
+.wa{
+    margin-top: 50px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.appwa{
+    text-align: center;
+    color: white;
+}
+
+.ig{
+    margin-top: 50px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.appig{
+    text-align: center;
+    color: white;
+}
+
+.git{
+    margin-top: 50px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.appgit{
+    text-align: center;
+    color: white;   
+}
+
